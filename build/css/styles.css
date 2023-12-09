@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: arial;
+}
+
+body {
+  background: #121212;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: rgb(36, 36, 36);
+  z-index: 2;
+}
+
+header {
+  font-style: italic;
+  z-index: 3;
+  height: 7vh;
+  background-color: rgb(36, 36, 36);
+}
+.header-tag {
+  display: inline;
+  padding-top: 1%;
+  float: right;
+  padding-right: 5%;
+}
+.title h3 {
+  display: inline;
+  padding-top: 1%;
+}
+#left {
+  float: left;
+  padding-left: 05%;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.subtitle {
+  color: rgb(186, 186, 186);
+  padding-top: 2%;
+  font-weight: 100;
+  font-size: 110%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 3.5%;
+}
+
+hr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.madeby {
+  display: inline;
+}
+
+h5 {
+  color: #696969;
+  padding-top: 1%;
+  padding-left: 10%;
+}
+h5 {
+  display: inline;
+  padding-top: -5%;
+}
+
+#cnrxad {
+  padding-left: 0%;
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+section img {
+  max-width: 50%;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.banner {
+  padding-top: 5%;
+}
+
+div h6 {
+  padding-top: 2%;
+  font-size: 200%;
+  font-weight: normal;
+  padding-bottom: 0.125%;
+}
+
+.report a {
+  text-decoration: none;
+}
+
+.report a h4 {
+  font-size: 90%;
+  text-align: center;
+  display: inline;
+  color: #ffcc00;
+}
+.stars {
+  padding-top: 1.5%;
+}
